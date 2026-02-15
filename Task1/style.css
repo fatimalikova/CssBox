@@ -1,0 +1,129 @@
+#cardDesign{
+    width: 100%;
+    height: 100vh;
+    background-color: aqua;
+}
+
+
+.cards .card{
+    width: 290px;
+    height: 500px;
+    margin-top: 150px;
+    justify-content: center;
+    align-items: row;
+    background-color: aliceblue;
+    border-radius: 20px;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+}
+.card .cardImg img{
+    width: 100%;
+    height:170px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.card_tittle{
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200px;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.card_text p{
+    padding: 0 20px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.cards .card .card_topic p{
+    background-color: rgb(82, 191, 255);
+    color: white;
+    width: 90px;
+    height: 20px;
+    align-items: center;
+    margin: 19px;
+    border-radius: 10px;
+    padding-left: 15px;
+}
+
+.cards .card .card_tittle h3{
+    align-items: center;
+    margin: 19px;
+}
+
+.footer .profile_photo img{
+    border-radius: 50px;
+    margin-top: 45px;
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+}
+
+.time{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 15px;
+}
+
+.footer{
+    display: flex;
+}
+
+.last_text{
+    margin-top: 40px;
+    margin-left: 15px;
+    line-height: 0.3;
+}
+
+.card_topic2{
+    background-color: red;
+    color: white;
+    width: 50px;
+    height: 20px;
+    align-items: center;
+    margin: 19px;
+    border-radius: 10px;
+    padding-left: 35px;
+    padding-right: 25px;
+}
+
+.card_topic3{
+    background-color: rgb(97, 219, 60);
+    color: white;
+    width: 90px;
+    height: 23px;
+    align-items: center;
+    margin: 19px;
+    border-radius: 10px;
+    padding-left: 15px;
+}
+
+.cardImg2 img{
+    width: 100%;
+    height:170px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.cardImg3 img{
+    width: 100%;
+    height:170px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+
+.img{
+    width: 100%;
+    height:170px;
+}
