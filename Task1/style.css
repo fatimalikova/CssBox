@@ -22,12 +22,22 @@
     justify-content: center;
     gap: 18px;
 }
-.card .cardImg img{
-    width: 100%;
-    height:170px;
+.card .cardImg{
+    overflow: hidden;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+}
+
+.card .cardImg img{
+    width: 100%;
+    height: 170px;
     cursor: pointer;
+    transition: transform 0.5s;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.card .cardImg img:hover{
+    transform: scale(1.2);
 }
 
 .card_tittle{
@@ -111,24 +121,45 @@
     border-radius: 10px;
     padding-left: 15px;
 }
+.card .cardImg2{
+    overflow: hidden;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
 
 .cardImg2 img{
-    width: 100%;
-    height:170px;
+   width: 100%;
+    height: 170px;
+    cursor: pointer;
+    transition: transform 0.5s;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
 
+.card .cardImg2 img:hover{
+    transform: scale(1.2);
+}
+.card .cardImg3{
+    overflow: hidden;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
 .cardImg3 img{
     width: 100%;
-    height:170px;
+    height: 170px;
+    cursor: pointer;
+    transition: transform 0.5s;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
-
-
+.card .cardImg3 img:hover{
+    transform: scale(1.2);
+}
 .img{
-    width: 100%;
-    height:170px;
+  width: 100%;
+    height: 170px;
     cursor: pointer;
+    transition: transform 0.5s;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
